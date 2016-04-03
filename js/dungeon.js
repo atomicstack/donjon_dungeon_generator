@@ -1041,7 +1041,7 @@ function alloc_stairs(a) {
     var b = 0;
     if (a.add_stairs == "many") {
         a = a.n_cols * a.n_rows;
-        b = 3 + random(Math.floor(a / 1E3))
+        b = 5 + random(Math.floor(a / 1E3))
     } else if (a.add_stairs == "yes") b = 2;
     return b
 }
