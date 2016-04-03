@@ -242,16 +242,16 @@ var dc = {
         }
     },
     default_query = {
-        map_style: "standard",
+        map_style: "classic",
         grid: "square",
-        dungeon_layout: "rectangle",
-        dungeon_size: "medium",
-        add_stairs: "yes",
+        dungeon_layout: "box",
+        dungeon_size: "large",
+        add_stairs: "many",
         room_layout: "scattered",
         room_size: "medium",
-        doors: "standard",
-        corridor_layout: "errant",
-        remove_deadends: "some"
+        doors: "basic",
+        corridor_layout: "straight",
+        remove_deadends: "all"
     },
     NOTHING = 0,
     BLOCKED = 1,
